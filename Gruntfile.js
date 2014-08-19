@@ -52,7 +52,7 @@ module.exports = function(grunt) {
       temp: 'temp',
       bowerDir: 'bower_components'
     },
-    aws: grunt.file.readJSON('configs/s3Config.json'),
+    // aws: grunt.file.readJSON('configs/s3Config.json'),
     watch: {
       gruntfile: {
           files: 'Gruntfile.js'
@@ -109,7 +109,7 @@ module.exports = function(grunt) {
         layoutdir: '<%= config.guts %>/templates/layouts/',
         assetsDir: '<%= grunt.config.get("assets_dir") %>',
         data: '<%= config.content %>/**/*.json',
-        plugins: ['assemble-contrib-permalinks'],
+        // plugins: ['assemble-contrib-permalinks'],
         helpers: '<%= config.guts %>/helpers/*.js'
       },
       pages: {

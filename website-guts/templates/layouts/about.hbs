@@ -1,7 +1,7 @@
 ---
-layout: locals.hbs
-data-path: <%= config.content %>/about/page.yaml
+layout: wrapper.hbs
 ---
+{{#local-data}}
 <div id="main">
 	<div id="page-header">
 		<div class="container">
@@ -24,3 +24,4 @@ data-path: <%= config.content %>/about/page.yaml
 		</div><!--/.container-->
 	</div><!--/#content-->
 </div><!--/#main-->
+{{/local-data}}
