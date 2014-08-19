@@ -108,9 +108,16 @@ module.exports = function(grunt) {
       options: {
         layoutdir: '<%= config.guts %>/templates/layouts/',
         assetsDir: '<%= grunt.config.get("assets_dir") %>',
-        data: '<%= config.content %>/**/*.json'
+        data: '<%= config.content %>/**/*.json',
+        plugins: ['assemble-contrib-permalinks'],
+        helpers: '<%= config.guts %>/helpers/*.js'
       },
       pages: {
+        options: {
+          permalinks: {
+            structure: ':basename/index.html'
+          }
+        },
         files: [
           {
             src: ['**/*.hbs'],
