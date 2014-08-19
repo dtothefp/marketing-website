@@ -165,7 +165,6 @@ figure {
  */
 hr {
   -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
@@ -258,7 +257,6 @@ input {
  * 2. Remove excess padding in IE 8/9/10.
  */
 input[type="checkbox"], input[type="radio"] {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
@@ -282,7 +280,6 @@ input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box; }
 
@@ -366,7 +363,6 @@ a {
 
 .link-download, body.press-page #press-kit a {
   background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4IiB2aWV3Qm94PSIwIDAgMTYgMTYiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE2IDE2IiB4bWw6c3BhY2U9InByZXNlcnZlIj48c3R5bGU+LnN0eWxlMHtmaWxsOgkjQUZCQUMzO308L3N0eWxlPjxwYXRoIGQ9Ik03Ljk3OSAwQzMuNTcyIDAgMCAzLjYgMCA3Ljk3OWMwIDQuNCAzLjYgOCA4IDcuOTc5YzQuNDA3IDAgNy45NzktMy41NzIgNy45NzktNy45NzkgQzE1Ljk1OCAzLjYgMTIuNCAwIDggMHogTTggMTNMMyA5aDRWNGgydjVoNEw4IDEzeiIgY2xhc3M9InN0eWxlMCIvPjwvc3ZnPg==');
-  -webkit-background-size: 16px, 16px;
   background-size: 16px, 16px;
   background-position: 0 4px;
   background-repeat: no-repeat;
@@ -517,13 +513,11 @@ header {
       right: 0;
       height: 100%;
       width: 34px;
-      background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.4)));
       background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
       background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)); }
     header .logo-cont {
       margin: -36px auto; }
       header .logo-cont .logo {
-        -webkit-background-size: 130px 28px;
         background-size: 130px 28px;
         width: 130px;
         height: 28px; }
@@ -551,7 +545,6 @@ header {
     margin: 20px 0 0 5px;
     padding: 9px 5px 7px 5px;
     /*width: 35px;*/
-    -webkit-background-size: 35px 35px;
     background-size: 35px 35px;
     /*background: url('/assets/img/menu.svg') center center no-repeat;*/
     text-align: center;
@@ -619,7 +612,6 @@ header {
     left: 0;
     height: 100%;
     width: 34px;
-    background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.4)));
     background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
     background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)); }
   #utility-nav-cont {
@@ -630,7 +622,6 @@ header {
     position: absolute;
     text-align: left;
     padding: 0 0 0 34px;
-    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
   body.nav-open #inner-wrapper {
@@ -661,7 +652,6 @@ header {
       display: inline-block; }
     header ul ul {
       display: none;
-      background: -webkit-gradient(linear, left top, left bottom, from(#00558d), color-stop(15%, #006eb6), to(#006eb6));
       background: -webkit-linear-gradient(top, #00558d 0%, #006eb6 15%, #006eb6 100%);
       background: linear-gradient(top, #00558d 0%, #006eb6 15%, #006eb6 100%); }
   #top-nav-cont {
@@ -705,7 +695,6 @@ header {
         padding: 0.4em 1.5em;
         width: 100%;
         display: block;
-        -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         font-size: 0.8em;
@@ -740,7 +729,6 @@ footer {
   footer .social-links li {
     display: inline-block; }
   footer .social-links a {
-    -webkit-background-size: 25px, 25px;
     background-size: 25px, 25px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     opacity: 0.8;
@@ -767,7 +755,6 @@ footer {
       font-size: 1em;
       font-weight: 100; }
     footer .logo {
-      -webkit-background-size: 108px 23.112px;
       background-size: 108px 23.112px;
       height: 23.112px;
       width: 108px;
@@ -827,7 +814,6 @@ footer {
    ========================================================================== */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 html {
@@ -1106,7 +1092,6 @@ body {
     background: transparent !important;
     color: #000 !important;
     /* Black prints faster: h5bp.com/s */
-    -webkit-box-shadow: none !important;
     box-shadow: none !important;
     text-shadow: none !important; }
   a, a:visited {
@@ -1140,14 +1125,12 @@ body {
   clear: both; }
 
 .callout {
-  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.07);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.07);
   background-color: white;
   border: 1px solid #ddd;
   padding: 25px; }
 
 .primary-button, body.home-page input[type=submit] {
-  background: -webkit-gradient(linear, left top, left bottom, from(#90b71c), to(#7fa119));
   background: -webkit-linear-gradient(top, #90b71c 0%, #7fa119 100%);
   background: linear-gradient(top, #90b71c 0%, #7fa119 100%);
   border: 1px solid #7e9339;
@@ -1164,7 +1147,6 @@ body {
   text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.23); }
 
 .secondary-button {
-  background: -webkit-gradient(linear, left top, left bottom, from(#90b71c), to(#7fa119));
   background: -webkit-linear-gradient(top, #90b71c 0%, #7fa119 100%);
   background: linear-gradient(top, #90b71c 0%, #7fa119 100%);
   border: 1px solid #cacaca;
@@ -1185,7 +1167,6 @@ body {
   display: block;
   height: 35.31px;
   width: 165px;
-  -webkit-background-size: 165px 35.31px;
   background-size: 165px 35.31px;
   text-indent: -900em;
   margin: 0 auto; }
@@ -1202,7 +1183,6 @@ body {
 .framed {
   background: #fff;
   border: 1px solid #dadada;
-  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
   padding: 3px; }
 
@@ -1289,29 +1269,24 @@ body.home-page {
         font-weight: 300; }
       body.home-page form {
         display: block;
-        background: -webkit-gradient(linear, left top, left bottom, from(#003366), to(#023f78));
         background: -webkit-linear-gradient(top, #003366 0%, #023f78 100%);
         background: linear-gradient(top, #003366 0%, #023f78 100%);
-        -webkit-box-shadow: 0px -2px 55px rgba(44, 89, 148, 0.82);
         box-shadow: 0px -2px 55px rgba(44, 89, 148, 0.82);
         border: 1px solid #214e82;
         padding: 16px;
         width: 671px;
         margin: 0 auto;
         overflow: hidden;
-        -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box; }
       body.home-page input[type=text] {
         border: solid 1px #e3e3e3;
-        -webkit-box-shadow: inset 0 0px 10px 0 rgba(0, 0, 0, 0.2);
         box-shadow: inset 0 0px 10px 0 rgba(0, 0, 0, 0.2);
         color: #006eb6;
         width: 446px;
         font-size: 16px;
         line-height: 22px;
         padding: 5px 8px;
-        -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         height: 36px;
